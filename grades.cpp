@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// PLACE YOUR NAME HERE 
+// Usage of stream ignore() and get() methods
 
 const int MAXNAME = 20;
 

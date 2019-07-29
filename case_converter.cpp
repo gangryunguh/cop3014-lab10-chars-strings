@@ -35,14 +35,14 @@ int main()
 		cout << "Your weekly food bill over the chosen month is $"
 			 << average << endl << endl;
 
-			do
-			{
-				cout << "Would you like to find the average for "
-					 << "another month?";
-				cout << endl << "Enter Y or N" << endl;
-				cin >> choice;
+		do
+		{
+		    cout << "Would you like to find the average for "
+		         << "another month?";
+		    cout << endl << "Enter Y or N" << endl;
+		    cin >> choice;
 
-			} while (toupper(choice) != 'Y' && toupper(choice) != 'N');
+		} while (toupper(choice) != 'Y' && toupper(choice) != 'N');
 
 	} while (toupper(choice) == 'Y');
 

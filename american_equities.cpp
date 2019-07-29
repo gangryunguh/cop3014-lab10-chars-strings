@@ -1,7 +1,13 @@
 // This program tests a password for the American Equities
 // web page to see if the format is correct
-
-// Place Your Name Here
+//
+// The American Equities investment company offers a wide range of investment
+// opportunities ranging from mutual funds to bonds. Investors can check the value of
+// their portfolio from the American Equities’ web page. Information about personal
+// portfolios is protected via encryption and can only be accessed using a password.
+// The American Equities company requires that a password consist of 8 characters, 5 of
+// which must be letters and the other 3 digits. The letters and digits can be arranged
+// in any order.
 
 #include <iostream>
 #include <cctype>
