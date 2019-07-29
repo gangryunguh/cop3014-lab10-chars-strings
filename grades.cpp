@@ -15,6 +15,7 @@ int main()
 	float average;			// holds student average
 
 	inData.get(name, MAXNAME + 1);
+    cout << fixed << showpoint << setprecision(2);
 
 	while (inData)
 	{
@@ -22,10 +23,14 @@ int main()
 
 		// Fill in the code to print out name and
 		// student average
+        cout << setw(MAXNAME + 1) << left << name << setw(10) << right << average << endl;
 
 		// Fill in the code to complete the while
 		// loop so that the rest of the student
 		// names and average are read in properly
+        inData.ignore(80, '\n');
+        inData.get(name, MAXNAME + 1);
+
 	}
 
 	return 0;

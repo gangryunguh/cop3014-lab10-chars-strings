@@ -41,6 +41,11 @@ int main()
 	// Fill in the code that will call countLetters and
 	// countDigits and will print to the screen both the number of
 	// letters and digits contained in the password.
+    int nLetters = countLetters(passWord);
+    int nDigits = countDigits(passWord);
+
+    cout << "Your password has " << nLetters << " alpha characters" << endl;
+    cout << "Your password has " << nDigits << " digits" << endl;
 
 	return 0;
 }
